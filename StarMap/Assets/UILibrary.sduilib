@@ -1,0 +1,174 @@
+!UILibraryAsset
+Id: 8e165412-8aa2-46db-92f0-2f415c6fd0f3
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+PublicUIElements:
+    38332492-a26d-4d9c-8b64-a3866f901e5f: StarMap
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 38332492-a26d-4d9c-8b64-a3866f901e5f
+    Parts:
+        -   UIElement: !Button
+                Id: 20c2a3a0-4404-4951-acbd-c4e1cb611392
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Search
+                Content: !TextBlock ref!! f53d4528-d58b-46b6-8f8c-a75e32f3d8a8
+        -   UIElement: !StackPanel
+                Id: 21cefa97-9714-4df9-97dc-48220cb95012
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Left: 20.0, Top: 20.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    59ddb27b296596ee37e7c1c6cd204cba: !StackPanel ref!! 83478b2d-b079-4cd3-ae26-d595e26c05ba
+                    5c495377330e4f099a87b13223bc48ee: !Button ref!! eb28d771-82ba-4aea-b279-adfca0475f1c
+                    642445e001b8e679c1cbb122796ffece: !TextBlock ref!! e3ec654a-1d31-4b9c-b92a-eb0a7118b73c
+        -   UIElement: !Grid
+                Id: 38332492-a26d-4d9c-8b64-a3866f901e5f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: StarMap
+                Children:
+                    2f3287307a893f7ebde2f96a36397fe4: !StackPanel ref!! 21cefa97-9714-4df9-97dc-48220cb95012
+                    129dbc015608f1c1fe8b375acf72c372: !ImageElement ref!! 5c0e84fb-a1b3-4704-9bd1-f544c89a21c7
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 5c0e84fb-a1b3-4704-9bd1-f544c89a21c7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Map
+                Source: !SpriteFromTexture
+                    Texture: 74878a8f-2620-44b9-85f6-650df29bfaed:RenderTexture
+                    Center: {X: 0.0, Y: 0.0}
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: FillOnStretch
+        -   UIElement: !TextBlock
+                Id: 66ee9954-1e01-4526-a435-41925b4263a8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Reset View
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: 83478b2d-b079-4cd3-ae26-d595e26c05ba
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 240}
+                HorizontalAlignment: Left
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: SearchUI
+                Children:
+                    e9825332d903da65779fddec86ebc0ea: !EditText ref!! 89d7786d-44b4-4ab0-a76b-39468bd0777e
+                    849896e7e5c1b18c4a2a089d606e4cd7: !Button ref!! 20c2a3a0-4404-4951-acbd-c4e1cb611392
+                Orientation: Horizontal
+        -   UIElement: !EditText
+                Id: 89d7786d-44b4-4ab0-a76b-39468bd0777e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Opacity: 0.8
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 200.0
+                Margin: {}
+                MinimumWidth: 100.0
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: SearchBar
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !TextBlock
+                Id: e3ec654a-1d31-4b9c-b92a-eb0a7118b73c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 10.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: StarDetails
+                Text: Selected Star
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+        -   UIElement: !Button
+                Id: eb28d771-82ba-4aea-b279-adfca0475f1c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 240}
+                DrawLayerNumber: 2
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 10.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ResetView
+                Content: !TextBlock ref!! 66ee9954-1e01-4526-a435-41925b4263a8
+        -   UIElement: !TextBlock
+                Id: f53d4528-d58b-46b6-8f8c-a75e32f3d8a8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Search
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
+                TextAlignment: Center

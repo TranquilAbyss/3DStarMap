@@ -1,0 +1,11 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarMap.Windows", "StarMap.Windows\StarMap.Windows.csproj", "{EF499248-4D88-4831-80C8-CD094BA0B2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarMap", "StarMap\StarMap.csproj", "{54B5CDEC-14A5-4F7B-AC6B-8145CACB27E1}"
+EndProject
+Global
+EndGlobal
